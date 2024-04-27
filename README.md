@@ -1,7 +1,7 @@
 # Project Name: Custom Named Entity Recognition (NER) for Medical Data
 
 ## Overview
-This project involves the development of a custom Named Entity Recognition (NER) model using spaCy, aimed at extracting specific information from medical text data. The project utilizes spaCy to identify and categorize entities such as medical terms and their corresponding values and units from unstructured text data.
+This project involves developing a custom Named Entity Recognition (NER) model using spaCy, aimed at extracting specific information from medical text data. The project utilizes spaCy to identify and categorize entities such as medical terms and their corresponding values and units from unstructured text data.
 
 ## Project Structure
 - `Custom_NER.ipynb`: Jupyter notebook containing the spaCy NER model training and evaluation scripts.
@@ -11,13 +11,13 @@ This project involves the development of a custom Named Entity Recognition (NER)
 ## How to Use
 1. **Setup Environment**:
    - Ensure Python 3.8+ is installed.
-   - Install spaCy and other dependencies via pip:
+   - Install spaCy and other necessary dependencies via pip:
      ```bash
      pip install spacy
      ```
 
 2. **Running the Notebook**:
-   - Open the `Custom_NER.ipynb` in a Jupyter environment:
+   - Open `Custom_NER.ipynb` in a Jupyter environment:
      ```bash
      jupyter notebook Custom_NER.ipynb
      ```
@@ -25,24 +25,28 @@ This project involves the development of a custom Named Entity Recognition (NER)
 
 3. **Data Format**:
    - The OCR output text file (`0ab9800e-bc9a-4388-aaa2-d4fc05e7d111.txt`) should be formatted with clear demarcations of data such as test names, values, and units.
-   - Further cleaning can be done on the OCR output, and a machine learning or deep learning model can be trained to predict the accurate test names, values, and units for enhanced accuracy.
-   - Additional patterns can also be identified from other OCR outputs to enrich the training dataset.
    - The JSON file (`X1.json`) should contain a list of medical abbreviations with their possible full forms or synonyms to assist in entity recognition and normalization.
 
 4. **Modifying the NER Model**:
    - Adjustments to the NER model can be made in the notebook to improve accuracy or to adapt to different types of medical documents.
 
 5. **Output**:
-   - The output from the model will be structured data extracted from the unstructured text, categorized into test names, values, and units, which can be used for further medical analysis or record-keeping.
-   - This output can be further refined as per use. For example, synonym names can be replaced with the abbreviations, and first instances of every abbreviation present can be taken. Both of these tasks can be done by a simple Python function.
+   - The output from the model will be structured data extracted from unstructured text, categorized into test names, values, and units, which can be used for further medical analysis or record-keeping.
+   - This output can be further refined by replacing synonym names with abbreviations and selecting the first instances of every abbreviation present. Both of these tasks can be achieved using a simple Python function.
+
+6. **Further Modifications**:
+   - Additional cleaning and refinement can be done on the OCR output to improve accuracy.
+   - Machine learning or deep learning models could be employed to enhance prediction of accurate test names, values, and units.
+   - Identifying new patterns from various OCR outputs can enrich the training dataset, further improving the model's robustness.
+   - Advanced models such as Large Language Models (LLMs) or other AI technologies could be utilized for better accuracy.
+   - As this is my first NLP project and was developed in a learning phase, some Python code can be optimized for better time and space efficiency.
 
 ## Conclusion
-   - This project showcases the powerful capabilities of spaCy in custom NER tasks tailored to the medical field. Through the development and refinement of this NER system, significant improvements can be made in processing medical documents, leading to more efficient data handling and extraction. The flexibility of the model allows for easy adjustments and scaling, which can be particularly beneficial in adapting to the evolving needs of medical data analysis.
+   - This project demonstrates the potent capabilities of spaCy for custom NER tasks tailored specifically to the medical field. The development and continual refinement of this NER system have the potential to significantly enhance the processing of medical documents, leading to more effective data handling and extraction. The model's flexibility for easy adjustments and scalability proves invaluable for adapting to the dynamic requirements of medical data analysis.
 
 ## Important Notes
 - Ensure that the paths to the data files (`0ab9800e-bc9a-4388-aaa2-d4fc05e7d111.txt` and `X1.json`) are correctly set in the notebook before running the cells.
-- This model is configured for English language medical data. Modifications might be necessary for other languages or specialized medical sub-fields.
+- This model is configured for English-language medical data. Modifications may be necessary for processing data in other languages or for specialized medical sub-fields.
 
 ## Contact Information
-- For further inquiries or contributions to the project, please reach out via [Email/GitHub/Twitter].
-
+- This is my first project in NER/Entity Resolution, and I would love to receive your feedback. Please feel free to reach out to me at abhishek2486teotia@gmail.com.
