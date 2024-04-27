@@ -50,4 +50,4 @@ This project involves developing a custom Named Entity Recognition (NER) model u
 - This model is configured for English-language medical data. Modifications may be necessary for processing data in other languages or for specialized medical sub-fields.
 
 ## Contact Information
-- This is my first project in NER/Entity Resolution, and I would love to receive your feedback. Please feel free to reach out to me at abhishek2486teotia@gmail.com.
+- This is my first project in NER/ER, and I would greatly appreciate any feedback. Please feel free to contact me at abhishek2486teotia@gmail.com.
