@@ -36,6 +36,7 @@ This project involves developing a custom Named Entity Recognition (NER) model u
 
 6. **Further Modifications**:
    - Additional cleaning and refinement can be done on the OCR output to improve accuracy.
+   - Additional rules can be implemented on the regex output to further clean the training data.
    - Machine learning or deep learning models could be employed to enhance prediction of accurate test names, values, and units.
    - Identifying new patterns from various OCR outputs can enrich the training dataset, further improving the model's robustness.
    - Advanced models such as Large Language Models (LLMs) or other AI technologies could be utilized for better accuracy.
