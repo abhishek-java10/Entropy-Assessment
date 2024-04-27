@@ -25,11 +25,13 @@
   },
   "pipeline":[
     "add_phrase_matcher",
-    "ner"
+    "ner",
+    "extract_relations"
   ],
   "components":[
     "add_phrase_matcher",
-    "ner"
+    "ner",
+    "extract_relations"
   ],
   "disabled":[
 
